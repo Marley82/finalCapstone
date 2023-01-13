@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href= "stylesheet.css" rel="stylesheet" type="text/css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beCo.D home</title>
+</head>
+<nav>
+    <ul id = "navul">
+      <li id = "navulli"><a href="index.html">Home</a></li>
+      <li id = "navulli"><a href="aboutus.html">About us</a></li>
+      <li id = "navulli"><a href = "contactus.html">contact us</a></li>
+      <li id = "navulli"><a href = "mysaves.html">my saved items</a></li>
+    </ul>
+</nav>
+<div>
+    <img id = "splash" src = "images/Splash.png">
+</div>
+<heading>
+    <h1 id="indexhead">
+        <br>
+        Welcome to beCo.D!
+    </h1>
+    <h2>
+        Exclusive and personalised web design for everyone!
+    </h2>
+</heading>
+<body onload="onLoad()">
+    <h3>
+        Bringing web design to you!
+    </h3>
+    <h4>
+        What we can do together!
+    </h4>
+    <p>
+        It's never been easier to get your message out there and tackle the biggest 
+        market place on the planet - yes the planet itself. Go global with your own brand, 
+        exclusive content and best of all communicate with the very people who will help your venture thrive.
+    </p>
+    <p>
+        It's all very well having a social media presence but what your brand really neads is a fully time, devoted website.
+        Nothing says professional care and solutions more than a bespoke user experience and that starts with your shop window to the world. 
+    </p>
+    <h4>
+        Tailored solutions to every need
+    </h4>
+    <p>
+        Whether you're a dance school, gym, hairdresser, recording artist, tyre fitter, community arts project, charity, mechanic, plumber or any other small to medium enterprise 
+        an up to date and informative website is the best way to communicate with your customers. 
+    </p>
+    <ul id = "products">
+        <li id="lihead">
+            <span>Services and price estimate</span>
+            <!-- <button id = "like">Like</button>
+            <button id = "add">Add to basket</button> -->
+        </li>
+        <li id="basic"class="product">
+            <span id ="basicS">Basic website, spread your message from £400</span>
+            <button id = "basicLike" onclick ="liked(basicS)">&#10004;</button>
+            <button id = "basicSave" onclick="saved(basicS)">save</button>
+        </li>
+        <li id="Ecom"class="product">
+            <span id="EcomS">E-commerce functionality from £1000</span>
+            <button id = "EconL"onclick="liked(EcomS)">&#10004;</button>
+            <button id = "EconS" onclick="saved(EcomS)">save</button>
+        </li>
+        <li id="full"class="product">
+            <span id="fullS">Full CRM and E-commerce from £2000</span>
+            <button id = "likef"onclick="liked(fullS)">&#10004;</button>
+            <button id = "addf" onclick="saved(fullS)">save</button>
+        </li>
+        <li id="react"class="product">
+            <span id="reactS">React Mobile app from £5000</span>
+            <button id = "liker"onclick="liked(reactS)">&#10004;</button>
+            <button id = "addr" onclick="saved(reactS)">save</button>
+        </li>
+        <li id="hosting"class="product">
+            <span id="hostingS">Hosting and support from £100/month</span>
+            <button id = "likeh"onclick="liked(hostingS)">&#10004;</button>
+            <button id = "addh" onclick="saved(hostingS)">save</button>
+        </li>
+    </ul>
+    <div id= "test">
+        <h4 id = "test">
+            Testimonials
+        </h4>
+        <pic id="test1p">
+            <img id = "testimg" src ="images/pic1.jpg">
+        </pic>
+        <p id = "test1">
+            'I really loved the service and the end result was fantastic!' - Olivia R
+        </p>
+        <button id = "liket1"onclick="liked(test1, test1p)">&#10004;</button>
+        <br>
+        <br>
+    </div> 
+    <div id="test">
+        <br>
+        <pic id="test2p">
+            <img id = "testimg" src ="images/pic2.jpg">
+        </pic>
+        <p id = "test2">
+            'From start to finish we had the had every need catered for, quick build and super helpful support' - Claire T
+        </p>
+        <button id = "liket2"onclick="liked(test2, test2p)">&#10004;</button>
+        <br>
+        <br>
+    </div> 
+    <div id = "test">
+        <br>
+        <pic id="test3p">
+            <img id = "testimg" src ="images/pic3.jpg">
+        </pic>
+        <p id = "test3">
+            'We couldn't have hoped for better, up and running on a matter of days!' - Hasibullah P
+        </p>
+        <button id = "liket3"onclick="liked(test3, test3p)">&#10004;</button>
+    </div> 
+    <div id="test">
+        <br>
+        <pic id ="test4p">
+            <img id = "testimg" src ="images/bus3.jpg">
+        </pic>
+        <p id = "test4">
+            'I just love my new global shopfront - thanks beCo.D!' - Julie K
+        </p>
+        <button id = "liket4"onclick="liked(test4, test4p)">&#10004;</button>
+        <br>
+        <br>
+    </div>
+</body>
+<script src="main.js"></script>
+<footer id="footer">
+    (c) beCo.D Design Studios Ltd 2022
+</footer>
+<div>
+    <img id = "banner" src = "images/Co.D.png">
+</div>
+</html>

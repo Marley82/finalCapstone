@@ -1,0 +1,225 @@
+#banner{
+    max-width: 100%;
+    user-select: none;
+    z-index: 10;
+    opacity: 0.5;
+}
+/* #saved{
+    margin-top: -5rem;
+} */
+#footer{
+    font-weight: bolder;
+}
+#me{
+    max-width: 40%;
+    margin-left: -60rem;
+    margin-top: -60rem;
+    z-index: 100;
+}
+#testimg{
+    max-width: 40%;
+    margin-bottom: -5rem;
+}
+#saved{
+    font-size: 3rem;
+    list-style: none;
+}
+#liked{
+    font-size: 3rem;
+    list-style: none;
+}
+#img{
+    max-width: 50%;
+    margin-bottom: 5rem;
+    margin-top:5rem;
+}
+#blerb{
+    text-align: center;
+    margin-top: -17rem;
+    margin-left: 10rem;
+    user-select: none;
+    font-size: 6rem;
+    text-decoration: underline;
+}
+#test{
+    margin-top: 5rem;
+    margin-left: -5rem;
+    text-align: center;
+}
+#test1{
+    margin-top: 5rem;
+    margin-left: -5rem;
+    text-align: center;
+}
+#test2{
+    margin-top: 5rem;
+    margin-left: -5rem;
+    text-align: center;
+}
+#test3{
+    margin-top: 5rem;
+    margin-left: -5rem;
+    text-align: center;
+}
+#test4{
+    margin-top: 5rem;
+    margin-left: -5rem;
+    text-align: center;
+}
+#testp{
+    text-align: center;
+    font-family: cursive;
+}
+#blerb-text{
+
+    padding-top: 5rem;
+    user-select: none;
+    font-size: 2rem;
+}    
+#products{
+    font-size: 2rem;
+    padding: 2rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    border: solid;
+    border-radius: 15%;
+    border-width: 5px;
+    background-color: lightgrey;
+    text-decoration: none;
+    list-style: none;
+}
+#products2{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    margin-left: 30%;
+    margin-top: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    border: solid;
+    border-radius: 5%;
+    border-width: 5px;
+    background-color: lightgrey;
+    text-decoration: none;
+    list-style: none;
+}
+.product{
+    padding: 1rem;
+}
+#lihead{
+    text-decoration: underline;
+    font-size: 3rem;
+    padding-bottom: 4rem;
+}
+
+#splash{
+    min-width: 100%;
+    margin-top: -25rem;
+    height: 0%;
+    z-index: 0;
+}    
+#contactblerb{
+    margin-top: -25rem;
+    padding: 3rem;
+}
+#hyp{
+    font-size: 3rem;
+}
+#form{
+    font-size: 2rem;
+}
+#radiogroup{
+    font-size: 2rem;
+}
+#navul {
+    list-style: none;
+    margin: 2rem;
+    border: 0.5rem solid;
+    margin-left: 25rem;
+    background-color: lightgray;
+    position: fixed;
+    color: rgb(48, 14, 90);
+    user-select: all;
+    z-index: 100;
+    border-radius: 5%;
+}
+#navulli {
+    display: inline-block;
+    text-align: justify;
+}
+#navulli a {
+    padding: 2rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+tr th{
+    text-decoration: underline;
+    font-weight: bold;
+}
+h1{
+    font-size: 7rem;
+    /* margin-top: -300px; */
+    font-weight: bold;
+    user-select: none;
+}
+#indexhead{
+    font-size: 7rem;
+    margin-top: -300px;
+    font-weight: bold;
+    user-select: none;
+}
+h2{
+    font-size:4rem;
+    margin-top: -5rem;
+    user-select:none;
+}
+h3{
+    font-size: 3rem;
+    text-align: left;
+    user-select: none;
+    padding-left: 4rem;
+}
+h4{
+    text-align: left;
+    font-size: 2rem;
+    padding-left: 4rem;
+    user-select: none;
+    text-decoration: underline; 
+}
+p{
+    text-align: left;
+    font-size: 1.7rem;
+    user-select: none;;
+    padding: 0rem 3rem 0rem 3rem;
+   ;
+}
+footer{
+    margin-top: 10rem;
+    font-size: large;
+}
+html {
+    font-family: sans-serif;
+    font-size: 1vw;
+    text-align: center;
+    color:rgb(48, 14, 90);
+    background-color: azure;
+}
+#lists{
+    margin-top: -20rem;
+}
+#contactb{
+    min-width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
